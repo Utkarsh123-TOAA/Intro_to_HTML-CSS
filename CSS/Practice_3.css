@@ -1,0 +1,24 @@
+p{
+    font-family: Montserrat;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.heading{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.content{
+    text-align: center;
+    font-size: 25px;
+}
+.delivery{
+    text-decoration: underline;
+}
+.delivery:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.delivery:active{
+    opacity: 0.2;
+}

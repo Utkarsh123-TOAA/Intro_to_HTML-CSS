@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online_Clothing</title>
+    <style>
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            position: relative;
+            display: inline-block;
+        }
+        .image{
+            height: 400px;
+            width: 300px;
+            object-fit: cover;
+        }
+        .sale{
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            background-color: black;
+            color: white;
+            font-family: Arial;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 12px;
+            padding-right: 12px;
+
+        }
+        .Overlay{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0px;
+            height: 100px;
+            width: 100%;
+            background-color:rgba(255, 255, 255, 0.9);
+        }
+        button{
+            font-size: 15px;
+            background-color: white;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        button:active{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="shirt_2.jpg" alt="Beige Color Shirt">
+        <div class="sale">20% OFF</div>
+        <div class="Overlay">
+            <button>Add to Cart</button>
+        </div>
+</body>
+</html>

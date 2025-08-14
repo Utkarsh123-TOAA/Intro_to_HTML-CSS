@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Relative_Positioning</title>
+    <style>
+        div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            position: relative;
+            background-color: grey;
+            width: 300px;
+            height: 150px;
+            top: 100px;
+            left: 100px;
+        }
+        .cut{
+            position: absolute;
+            color: white;
+            background-color: black;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-radius: 50%;
+            top: -10px;
+            left: -10px;
+        }
+        .time{
+            position: absolute;
+            color: white;
+            font-size: 15px;
+            background-color: black;
+            bottom: 7px;
+            right: 7px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cut">X</div>
+        <div class="time">0:29</div>
+    </div>
+</body>
+</html>
